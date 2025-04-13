@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article class="transcription">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <div class="transcription-meta">
+      <span class="artist">Artist: {{ page.artist }}</span>
+      {% if page.album %}<span class="album">Album: {{ page.album }}</span>{%
+      endif %} {% if page.year %}<span class="year">Year: {{ page.year }}</span
+      >{% endif %} {% if page.instrument %}<span class="instrument"
+        >Instrument: {{ page.instrument }}</span
+      >{% endif %} {% if page.difficulty %}<span class="difficulty"
+        >Difficulty: {{ page.difficulty }}</span
+      >{% endif %}
+    </div>
+  </header>
+
+  <div class="post-content">{{ content }}</div>
+
+  {% if page.notation_file %}
+  <div class="notation">
+    <h2>Notation</h2>
+    <p>
+      <a href="{{ page.notation_file | relative_url }}" download
+        >Download notation</a
+      >
+    </p>
+  </div>
+  {% endif %} {% if page.audio_sample %}
+  <div class="audio-sample">
+    <h2>Audio Sample</h2>
+    <audio controls>
+      <source src="{{ page.audio_sample | relative_url }}" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  {% endif %}
+</article>

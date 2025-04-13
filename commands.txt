@@ -3,3 +3,14 @@ git add .
 git status
 git commit -m "initial commit"
 git push origin gh-pages
+
+
+to get current version from repo
+git pull https://github.com/ElPioterro/blog.git gh-pages
+
+
+get project structure:
+Get-ChildItem -Recurse -Exclude bin,obj | Where-Object { $_.Extension -eq '.html' -or $_.Extension -eq '.xml' -or $_.Extension -eq '.json' -or $_.Extension -eq '.markdown' -or $_.Extension -eq '.css' -or $_.Extension -eq '.js' -or $_.Extension -eq '.mscz' -or $_.Extension -eq '.yml'} | Select-Object FullName | Out-File project-structure.txt
+
+full project structure:
+Get-ChildItem -Recurse -Exclude bin,obj | Select-Object FullName | Out-File project-structure.txt
