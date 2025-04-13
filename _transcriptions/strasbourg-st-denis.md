@@ -7,7 +7,7 @@ album: "Earfood"
 year: 2008
 instrument: "Trumpet"
 difficulty: "Intermediate"
-notation_file: "/blog/download/Strasbourg_St_Denis_v3.mscz"
+notation_file: "/download/Strasbourg_St_Denis_v3.mscz"
 ---
 
 ## About This Transcription

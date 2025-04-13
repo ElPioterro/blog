@@ -6,7 +6,7 @@ album: "Here We Go Jack"
 year: 2024
 instrument: "Flute"
 difficulty: "Intermediate"
-notation_file: "/blog/download/Alone Again, Naturally - Vulfmon.mscz"
+notation_file: "/download/Alone Again, Naturally - Vulfmon.mscz"
 youtube_video: "https://www.youtube.com/embed/<YOUR_VIDEO_ID>"
 ---
 
