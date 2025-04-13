@@ -7,7 +7,7 @@ year: 2024
 instrument: "Flute"
 difficulty: "Intermediate"
 notation_file: "/download/Alone Again, Naturally - Vulfmon.mscz"
-youtube_video: "https://www.youtube.com/embed/<YOUR_VIDEO_ID>"
+youtube_video: "https://www.youtube.com/embed/EAbQxHtLcCA"
 ---
 
 ## About This Transcription

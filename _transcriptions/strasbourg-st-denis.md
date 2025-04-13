@@ -8,6 +8,7 @@ year: 2008
 instrument: "Trumpet"
 difficulty: "Intermediate"
 notation_file: "/download/Strasbourg_St_Denis_v3.mscz"
+youtube_video: "https://www.youtube.com/embed/wBTADYsEWJ0"
 ---
 
 ## About This Transcription
@@ -36,3 +37,9 @@ Hargrove builds his solo primarily around the F Dorian scale, making excellent u
 ## Performance Context
 
 This solo occurs after the main melody statement and before Dr. Derek Scott's keyboard solo. The rhythm section maintains a steady groove throughout, giving Hargrove the perfect foundation for his melodic ideas.
+
+## Watch the Transcription
+
+Below is a video of the transcription synced with the original solo. Watch and follow along to see how the notes align with the performance.
+
+<iframe width="560" height="315" src="{{ page.youtube_video }}" frameborder="0" allowfullscreen></iframe>
