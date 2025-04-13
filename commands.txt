@@ -9,6 +9,12 @@ to get current version from repo
 git pull https://github.com/ElPioterro/blog.git gh-pages
 
 
+
+run locally:
+bundle exec jekyll serve
+
+https://you.com/search?q=Jekyll+Blog+Setup&cid=c1_77aae51d-8c88-45bd-a634-23c1821fc2cc
+
 get project structure:
 Get-ChildItem -Recurse -Exclude bin,obj | Where-Object { $_.Extension -eq '.html' -or $_.Extension -eq '.xml' -or $_.Extension -eq '.json' -or $_.Extension -eq '.markdown' -or $_.Extension -eq '.css' -or $_.Extension -eq '.js' -or $_.Extension -eq '.mscz' -or $_.Extension -eq '.yml'} | Select-Object FullName | Out-File project-structure.txt
 
